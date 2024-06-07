@@ -1,0 +1,84 @@
+body {
+    padding: 0%;
+    margin: 0%
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 685px;
+    flex-wrap: space-around;
+    background-color: #fbf8f4;
+    border: none;
+}
+
+.login {
+    width: 1700px;
+    height: 693px;
+    display: flex;
+    flex-direction:column;
+    background-color: #fbf8f4;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b626c;
+}
+
+.forms {
+    position: relative;
+    margin: auto;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 10;
+    text-align: left;
+    box-shadow: 0px 2px 15px 2px #00000040;
+    padding-inline: 13px;
+    margin-bottom: 50px;
+    background-color: #efefef;
+    border-color:#fbf8f4 ;
+    border: none;
+
+}
+
+.image {
+    position: relative;
+    top: -150px;
+    right: 20px;
+    background-image: url(./imgs/imagem1.png);
+    width: 2600px;
+    height: 845px;
+}
+
+.infos {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    color:#9eaaa8;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.botao{
+    width: 40px;
+    position: relative;
+    top: 350px;
+    left: 350px;
+    height: 26px;
+    border: none;
+}
