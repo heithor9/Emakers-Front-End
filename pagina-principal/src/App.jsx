@@ -1,17 +1,23 @@
 import { useState } from 'react'
 import './App.css'; 
+import Logo from "./imgs/Logo.png"
+import Lupa from "./imgs/Lupa.png"
 
 function App() {
   return (
     <div>
       <header className='header'>
-        <div className='imagem'></div>
+        <div className='imagem'><img src={Logo} alt = "Logo"/></div>
         <div className='links'>
-          <div className = 'link1'> Lançamentos |</div>
-          <div className= 'link2'> Populares |</div>
-          <div className= 'link3'> Gêneros |</div>
-          <div className= 'link4'> Promoções |</div>
-          <div className= 'link5'> Conta </div>
+          <div className = 'link1'>Lançamentos |</div>
+          <div className= 'link2'>Populares |</div>
+          <div className= 'link3'>Gêneros |</div>
+          <div className= 'link4'>Promoções |</div>
+          <div className= 'link5'>Conta </div>
+        </div>
+        <div className='barraPesquisa'>
+          <div className='lupa'></div>
+          <div className='imagemLupa'><img src={Lupa}/></div>
         </div>
       </header>
       <div className='main'>
@@ -21,7 +27,8 @@ function App() {
             <input className='inputTitulo1' type="input" placeholder='Título do jogo'/>
             <input className='genero1' type="input" placeholder='Gênero'/>
             <input className='descrição1' type = "input" placeholder='Descrição'/>
-            <input className='inserirImagem1' type="bottom" placeholder='Inserir Imagem'/>
+            <button className = 'botaoInserirImagem'>Inserir imagem</button>
+            <button className='botaoCadastrar'>Cadastrar</button>
           </div>
         </div>
 
@@ -39,7 +46,9 @@ function App() {
             <div className='títuloEditar'>Editar Jogo</div> 
             <input className='inputTitulo3' type="input" placeholder='Título do jogo'/>
             <input className='genero3' type="input" placeholder='Gênero'/>
-            <input className='inserirImagem1' type="input" placeholder='Remover'/>
+            <input className='descrição2' type = "input" placeholder='Descrição'/>
+            <button className='inserirImagem1' type="button">Inserir imagem </button>
+            <button className='botaoModificar'>Modificar</button>
           </div>
         </div>
       </div>
