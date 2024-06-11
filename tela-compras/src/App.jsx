@@ -8,6 +8,8 @@ import deliverUs from "./imgs/deliverUs.png"
 import gow from "./imgs/gow.png"
 import deathStranding from "./imgs/deathStranding.png"
 import lixeira from "./imgs/Lixeira.png"
+import lupa from "./imgs/LupaCerta.png"
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,7 +26,10 @@ function App() {
         <div className='titulo4'>Promoções</div>
         <div className='line4'><img src={Linha} alt = "Linha4"/></div>
         <div className='titulo5'>Conta</div>
-        <div className='barraPesquisa'></div>
+        <div className='barraPesquisa'>
+          <button className='lupa'><img src={lupa} alt = "lupa"/></button>
+          <input className='pesquisa'></input>
+        </div>
       </header>
       <div className='corpo'>
         <div className='quadrante1'>
@@ -40,7 +45,7 @@ function App() {
               <div className='quadrante142'>Excluir Conta</div>
               <div className='lixeira'><img src={lixeira} alt = "lixeira"/></div>
             </div>
-            <div className='quadrante16'>Tela do admin </div>
+            <div className='quadrante16'>Tela do admin</div>
           </div>
         </div>
         <div className='quadrante2'>

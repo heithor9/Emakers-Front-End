@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css'; // Assumindo que você está usando um arquivo CSS separado
-
+import seta from "./imgs/seta.png"
 const App = () => {
   return (
     <div className='main'>
       <div className='login'>
-        <button className='botao'> ➜ </button>
+        <button className='botao'><img src={seta} alt = "seta"/> </button>
         <div className='title'>Login</div>
         <form className='forms'>
           <input className = 'input'type="input" placeholder='E-mail'/>

@@ -139,6 +139,27 @@ body {
     left: 150px;
     border-radius: 15px;
     background-color: #97A4A273;
+    display: flex;
+    align-items: center;
+    
+}
+
+.lupa {
+    border: none;
+    background: rgba(0,0,0,0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 130px;
+}
+
+.pesquisa {
+    border: none;
+    background: rgba(0,0,0,0);
+    width: 100px;
 }
 
 /*------------------------------------*/
