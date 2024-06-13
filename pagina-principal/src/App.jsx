@@ -1,55 +1,55 @@
 import { useState } from 'react'
 import './App.css'; 
+import Linha from "./imgs/Line 1.png"
 import Logo from "./imgs/Logo.png"
-import Lupa from "./imgs/Lupa.png"
+import lupa from "./imgs/LupaCerta.png"
 
 function App() {
   return (
     <div>
-      <header className='header'>
-        <div className='imagem'><img src={Logo} alt = "Logo"/></div>
-        <div className='links'>
-          <div className = 'link1'>Lançamentos |</div>
-          <div className= 'link2'>Populares |</div>
-          <div className= 'link3'>Gêneros |</div>
-          <div className= 'link4'>Promoções |</div>
-          <div className= 'link5'>Conta </div>
-        </div>
+      <header className='cabecalho'>
+        <div className='Logo'><img src={Logo} alt = "Logo"/></div>
+        <div className='titulo1'>Lançamentos</div>
+        <div className='line1'><img src={Linha} alt = "Linha1"/></div>
+        <div className='titulo2'>Populares</div>
+        <div className='line2'><img src={Linha} alt = "Linha2"/></div>
+        <div className='titulo3'>Gêneros</div>
+        <div className='line3'><img src={Linha} alt = "Linha3"/></div>
+        <div className='titulo4'>Promoções</div>
+        <div className='line4'><img src={Linha} alt = "Linha4"/></div>
+        <div className='titulo5'>Conta</div>
         <div className='barraPesquisa'>
-          <div className='lupa'></div>
-          <div className='imagemLupa'><img src={Lupa}/></div>
+          <button className='lupa'><img src={lupa} alt = "lupa"/></button>
+          <input className='pesquisa'></input>
         </div>
       </header>
       <div className='main'>
         <div className='cadastro'>
-          <div className='conteudo1'>
+
             <div className='títuloCadastro'> Cadastrar Jogo</div> 
             <input className='inputTitulo1' type="input" placeholder='Título do jogo'/>
             <input className='genero1' type="input" placeholder='Gênero'/>
-            <input className='descrição1' type = "input" placeholder='Descrição'/>
+            <input className='descricao1' type = "input" placeholder='Descrição'/>
             <button className = 'botaoInserirImagem'>Inserir imagem</button>
             <button className='botaoCadastrar'>Cadastrar</button>
-          </div>
         </div>
 
         <div className='remover'> 
-          <div className='conteudo2'>
             <div className='títuloRemover'>Remover Jogo</div> 
             <input className='inputTitulo2' type="input" placeholder='Título do jogo ou ID'/>
-            <input className='genero2' type="input" placeholder='Remover'/>
+            <button className='genero2' type="input">Remover</button>
             
-          </div>
         </div>
 
         <div className='editar'>  
-          <div className='conteudo3'>
+        
             <div className='títuloEditar'>Editar Jogo</div> 
             <input className='inputTitulo3' type="input" placeholder='Título do jogo'/>
             <input className='genero3' type="input" placeholder='Gênero'/>
             <input className='descrição2' type = "input" placeholder='Descrição'/>
             <button className='inserirImagem1' type="button">Inserir imagem </button>
-            <button className='botaoModificar'>Modificar</button>
-          </div>
+            
+          
         </div>
       </div>
     </div>

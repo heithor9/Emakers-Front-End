@@ -2,13 +2,14 @@ import { useState } from 'react'
 import './App.css'
 import Linha from "./imgs/Line 1.png"
 import Logo from "./imgs/Logo.png"
+import lupa from "./imgs/LupaCerta.png"
 import Lapis from "./imgs/Lapis.png"
 import bob from "./imgs/bobEsponja.png"
 import deliverUs from "./imgs/deliverUs.png"
 import gow from "./imgs/gow.png"
 import deathStranding from "./imgs/deathStranding.png"
 import lixeira from "./imgs/Lixeira.png"
-import lupa from "./imgs/LupaCerta.png"
+
 
 function App() {
   const [count, setCount] = useState(0)
