@@ -157,6 +157,7 @@ body {
     height: 20px;
     position: relative;
     left: 130px;
+    cursor: pointer;
 }
 
 .pesquisa {
@@ -225,6 +226,7 @@ body {
     margin-top: 40px;
     border-width: 3px;
     border-color: #4B626C;
+    cursor: pointer;
 }
 
 .quadrante141 {
@@ -255,6 +257,7 @@ body {
     margin-top: 27px;
     border-width: 3px;
     border-color: #4B626C;
+    cursor: pointer;
 }
 
 .lixeira {
@@ -290,6 +293,7 @@ body {
     align-items: center;
     border-width: 3px;
     border-color: #a3acae;
+    cursor: pointer;
 }
 /*----------------------------*/
 

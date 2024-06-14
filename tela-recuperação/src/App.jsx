@@ -13,7 +13,7 @@ const App = () => {
         </div>
         <button className='enter' id = 'Enter'><img src={enter} alt = "enter"/></button>
         <form action="http://localhost:5174/"><button className='conta' id = 'Conta'>Criar Conta</button></form>
-        <form action="http://localhost:5175/"><button className='esqueceuSenha' id ='Esqueceu'>Esqueceu a Senha?</button></form>
+        <form action="http://localhost:5175/"><button className='esqueceuSenha' id ='Esqueceu'>Fazer Login</button></form>
       </div>
       <div className='quadrante2'><img src={imagem} alt = "imagem"/></div>
     </div>

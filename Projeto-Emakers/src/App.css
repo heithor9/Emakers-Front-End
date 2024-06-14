@@ -40,7 +40,7 @@ body {
     font-size: 64px;
     font-weight: 400;
     color: rgba(75, 98, 108, 1);
-
+    text-align: center;
 }
 
 .email {
