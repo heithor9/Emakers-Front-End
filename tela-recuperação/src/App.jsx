@@ -1,22 +1,21 @@
-import React from 'react';
-import './App.css'; // Assumindo que você está usando um arquivo CSS separado
-import seta from "./imgs/seta.png"
+import React from 'react'
+import './App.css';
+
+import imagem from "./imgs/imagem1.png"
+import enter from "./imgs/seta.png"
 const App = () => {
   return (
     <div className='main'>
-      <div className='login'>
-        <button className='botao'><img src={seta} alt = "seta"/> </button>
-        <div className='title'><div>Recuperar</div><div>Conta</div></div>
-        <form className='forms'>
-          <input className = 'input'type="input" placeholder='E-mail'/>
-        </form>
-        <div className='infos'><strong>Criar conta <br></br>
-          Fazer Login</strong></div>
-
+      <div className='quadrante1'>
+        <div className='boxLogin'>
+          <div className='titulo'>Recuperar Conta</div>
+          <input className='email' type="input" placeholder='E-mail'/>
+        </div>
+        <button className='enter' id = 'Enter'><img src={enter} alt = "enter"/></button>
+        <form action="http://localhost:5174/"><button className='conta' id = 'Conta'>Criar Conta</button></form>
+        <form action="http://localhost:5175/"><button className='esqueceuSenha' id ='Esqueceu'>Esqueceu a Senha?</button></form>
       </div>
-      <div className='image'>
-
-      </div>
+      <div className='quadrante2'><img src={imagem} alt = "imagem"/></div>
     </div>
 
   );

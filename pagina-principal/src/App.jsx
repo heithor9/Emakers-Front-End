@@ -17,7 +17,7 @@ function App() {
         <div className='line3'><img src={Linha} alt = "Linha3"/></div>
         <div className='titulo4'>Promoções</div>
         <div className='line4'><img src={Linha} alt = "Linha4"/></div>
-        <div className='titulo5'>Conta</div>
+        <form action="http://localhost:5175/" ><button className='titulo5'>Conta</button></form>
         <div className='barraPesquisa'>
           <button className='lupa'><img src={lupa} alt = "lupa"/></button>
           <input className='pesquisa'></input>
@@ -37,7 +37,7 @@ function App() {
         <div className='remover'> 
             <div className='títuloRemover'>Remover Jogo</div> 
             <input className='inputTitulo2' type="input" placeholder='Título do jogo ou ID'/>
-            <button className='genero2' type="input">Remover</button>
+            <button className='botaoRemover' type="input">Remover</button>
             
         </div>
 
@@ -48,7 +48,7 @@ function App() {
             <input className='genero3' type="input" placeholder='Gênero'/>
             <input className='descrição2' type = "input" placeholder='Descrição'/>
             <button className='inserirImagem1' type="button">Inserir imagem </button>
-            
+            <button className='botaoCadastrar'>Modificar</button>
           
         </div>
       </div>

@@ -38,15 +38,15 @@ function App() {
             <div className='quadrante11'>Olá, (nome do usuário  ) </div>
             <div className='quadrante12'>Seu email é nomeusuario@email.com</div>
             <div className='quadrante13'>Seu CPF é 123.456.789-00</div>
-            <div className='quadrante14'>
+            <button className='quadrante14'>
               <div className='quadrante141'>Alterar Dados</div>
               <div className='pencil'><img src={Lapis} alt = "Lapis"/> </div>
-            </div>
-            <div className='quadrante15'>
+            </button>
+            <button className='quadrante15'>
               <div className='quadrante142'>Excluir Conta</div>
               <div className='lixeira'><img src={lixeira} alt = "lixeira"/></div>
-            </div>
-            <div className='quadrante16'>Tela do admin</div>
+            </button>
+            <form action="http://localhost:5174/"><button className='quadrante16'>Tela do admin</button></form>
           </div>
         </div>
         <div className='quadrante2'>

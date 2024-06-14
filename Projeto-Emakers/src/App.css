@@ -1,85 +1,128 @@
 body {
-    padding: 0%;
-    margin: 0%
+    margin: 0;
 }
 
 .main {
-    position: relative;
     display: flex;
     flex-direction: row;
-    height: 685px;
-    flex-wrap: space-around;
-    background-color: #fbf8f4;
-    border: none;
 }
 
-.login {
-    width: 1700px;
-    height: 693px;
-    display: flex;
-    flex-direction:column;
-    background-color: #fbf8f4;
-    justify-content: center;
+.quadrante1 {
+    width: 550px;
+    height: 884px;
+    background-color:rgba(251, 248, 244, 1);
+    
 }
 
-.title {
+.quadrante2 {
+    position: relative;
+    width: 1239px;
+    height: 1239px;
+    top: -140px;
+    z-index: -1;
+}
+
+.boxLogin {
+    position: relative;
+    width: 390px;
+    height: 320px;
+    top: 57px;
+    left: 55px;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    width: 182px;
+    height: 78px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: rgba(75, 98, 108, 1);
+
+}
+
+.email {
+    width: 380px;
+    height: 50px;
     position: relative;
     top: 70px;
-    font-size:50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #4b626c;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(239, 239, 239, 1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    align-items: start;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 300;
 }
 
-.forms {
+.senha {
+    width: 380px;
+    height: 50px;
     position: relative;
-    margin: auto;
-    top: -100px;
-    display: flex;
-    flex-direction: column;
+    top: 130px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(239, 239, 239, 1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    align-items: start;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 300;
 }
 
-.input {
+.enter {
+    position: relative;
+    left: 410px;
+    top: 130px;
+    border: none;
+    background-color:rgba(251, 248, 244, 1) ;
+}
 
+#Enter {
+    cursor: pointer;
+}
+
+.conta {
+    width: 117px;
+    height: 24px;
+    top: 430px;
+    left: 55px;
+    position: relative;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    font-weight: 10;
+    font-weight: 600;
     text-align: left;
-    box-shadow: 0px 2px 15px 2px #00000040;
-    padding-inline: 13px;
-    margin-bottom: 50px;
-    background-color: #efefef;
-    border-color:#fbf8f4 ;
+    color: rgba(151, 164, 162, 1);
+    background-color: rgba(251, 248, 244, 1);
+    padding: 0;
     border: none;
-
 }
 
-.image {
-    position: relative;
-    top: -150px;
-    right: 20px;
-    background-image: url(./imgs/imagem1.png);
-    width: 2600px;
-    height: 845px;
+#Conta {
+    cursor: pointer;
 }
 
-.infos {
+.esqueceuSenha {
+    width: 200px;
+    height: 24px;
+    top: 440px;
+    left: 55px;
     position: relative;
-    bottom: 30px;
-    left: 30px;
-    color:#9eaaa8;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.botao{
-    width: 40px;
-    position: relative;
-    top: 350px;
-    left: 340px;
-    height: 26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(151, 164, 162, 1);
+    background-color: rgba(251, 248, 244, 1);
+    padding: 0;
     border: none;
-    background-color: #fbf8f4;
+}
+
+#Esqueceu    {
+    cursor: pointer;
 }
